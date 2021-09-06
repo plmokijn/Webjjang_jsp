@@ -9,8 +9,7 @@
 <body>
 	<h1>게시판 글쓰기 폼</h1>
 	<form action="write.jsp" method="post">
-		
-		제목 : <input name="title"><br>
+		제목 : <input name="title" placeholder="제목을 입력하세요."><br>
 		내용 : <textarea rows="5" cols="80" name="content"></textarea><br>
 		작성자 : <input name="writer"><br>
 		<button>등록</button>

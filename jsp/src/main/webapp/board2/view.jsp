@@ -15,6 +15,9 @@
 </head>
 <body>
 	<h1>게시판 글보기</h1>
-	글번호 : <%= no %>
+	글번호 : <%= no %><br>
+	<a href="updateForm.jsp?no=<%= no %>"><button>수정</button></a>
+	<a href="delete.jsp?no=<%= no %>"><button>삭제</button></a>
+	<a href="list.jsp"><button>리스트</button></a>
 </body>
 </html>
